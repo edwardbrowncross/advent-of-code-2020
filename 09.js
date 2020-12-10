@@ -1,5 +1,5 @@
 const input = require('fs')
-    .readFileSync('./9.input.txt', 'utf-8')
+    .readFileSync('./09.input.txt', 'utf-8')
     .split('\n')
     .map(x => parseInt(x))
 const size = 25;

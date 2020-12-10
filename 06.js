@@ -1,5 +1,5 @@
 const input = require('fs')
-    .readFileSync('./6.input.txt', 'utf-8')
+    .readFileSync('./06.input.txt', 'utf-8')
     .split('\n\n')
     .map(x => x.split('\n').map(y => y.split('')));
 

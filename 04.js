@@ -1,5 +1,5 @@
 const input = require('fs')
-    .readFileSync('./4.input.txt', 'utf-8')
+    .readFileSync('./04.input.txt', 'utf-8')
     .split('\n\n')
     .map(x => Object.fromEntries(
         x.split(/\s/).map(x => x.split(':'))

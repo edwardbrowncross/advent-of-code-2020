@@ -1,5 +1,5 @@
 const input = require('fs')
-    .readFileSync('./7.input.txt', 'utf-8')
+    .readFileSync('./07.input.txt', 'utf-8')
     .split('\n')
     .map(x => x
         .replace(/ bags?\.?/g, '')
