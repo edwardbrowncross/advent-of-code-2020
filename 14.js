@@ -74,5 +74,3 @@ console.log(answer1);
 const endState2 = run(fns(mem2))(input).mem;
 const answer2 = sum(endState2);
 console.log(answer2);
-
-console.log(Math.max(...Object.keys(endState2)))
